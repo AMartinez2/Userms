@@ -27,4 +27,10 @@ public class UserController {
         User result = userRepository.findByUsid(usid);
         return result;
     }
+
+    @GetMapping("/id/{id}")
+    public User getRobotById (@PathVariable String id) {
+        User result = userRepository.findBy_id(id);
+        return result;
+    }
 }
