@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import user.ms.userms.entity.User;
 import user.ms.userms.repository.UserRepository;
 
-@CrossOrigin({"http://localhost:4200", "https://eng-dev.herokuapp.com", "https://project13-test.herokuapp.com/"})
+@CrossOrigin({"http://localhost:4200", "https://eng-dev.herokuapp.com", "https://project13-test.herokuapp.com"})
 @RestController
 public class UserController {
     @Autowired
